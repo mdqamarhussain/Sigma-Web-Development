@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Card Design</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-color: rgba(203, 234, 246, 0.925);
+        padding: 10px 145px;
+    }
+
+    .card {
+        background-color: white;
+        width: 444px;
+        height: 560px;
+        border-radius: 20px;
+        padding: 0px 0px 34px 0px;
+    }
+
+    .image {
+        padding: 8px;
+    }
+
+    .image img {
+        border-radius: 20px;
+    }
+
+    .content {
+        padding: 0px 18px 24px;
+        font-family: 'Poppins';
+    }
+
+    .content p {
+        font-size: 13px;
+        color: grey;
+    }
+
+    .capsules {
+        padding: 10px 17px;
+    }
+
+    .capsules span {
+        font-family: 'Poppins';
+        border: 1px solid black;
+        padding: 1px 4px;
+        border-radius: 5px;
+        font-size: 14px;
+    }
+    .button{
+        text-align: center;
+    }
+    .button button{
+        border: none;
+        font-size: 15px;
+        font-family: 'Poppins';
+        font-weight: 500;
+        color: rgb(101, 55, 255);
+        padding: 7px 20px;
+        background-color: rgba(71, 175, 255, 0.397);
+        margin-top: -10px;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+    .button button:hover{
+        background-color: rgba(0, 107, 189, 0.397);
+        color: rgba(13, 13, 13, 0.902);
+    }
+</style>
+
+
+<body>
+    <div class="card">
+        <div class="image">
+            <img width="426px"
+                src="https://images.unsplash.com/photo-1575936123452-b67c3203c357?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="image">
+        </div>
+
+        <div class="capsules">
+            <span>Nature</span>
+            <span>Lake</span>
+        </div>
+        <div class="content">
+            <h2>Qamar</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima nihil sint voluptate sunt eveniet iste
+                vel asperiores dolores, nesciunt, labore alias possimus fugit Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Reiciendis, suscipit! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatem, cum.</p>
+        </div>
+        <div class="button">
+            <button>Read More</button>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

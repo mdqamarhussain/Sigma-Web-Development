@@ -1,0 +1,140 @@
+ul {
+    list-style: none;
+    /* justify-content:baseline; */
+    display: flex;
+    gap: 30px;
+}
+
+nav {
+    font-family: "Segoe UI";
+    padding: 6px;
+    display: flex;
+    cursor: pointer;
+    justify-content: space-around;
+}
+
+.right ul li {
+    font-size: 13.5px;
+}
+
+.right ul li span {
+    padding: 0 5px;
+}
+
+.container {
+    display: grid;
+    border: 2px solid black;
+    width: 80vh;
+    height: 100vh;
+    grid-template-columns: repeat(4, 80px);
+}
+
+.first{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+    margin: 70px;
+    font-family: sans-serif;
+}
+
+.first span{
+    font-size: 45px;
+}
+
+section span img{
+    width: 93px;
+    margin: 0 4px;
+}
+
+.first p{
+    font-size: 21px;
+    width: 55vw;
+    text-align: center;
+}
+
+.btnn button{
+    background: #00b6d1;
+    padding: 14px 16px;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: 700;
+    margin: 0px;
+    cursor: pointer;
+}
+
+.flex{
+    display: flex;
+}
+
+.download :nth-child(2){
+    font-size: 25px;
+}
+
+.download img{
+    padding: 0px 12px;
+    margin-bottom: 7px;
+}
+
+.download{
+    display: flex;
+    gap: 10px;
+    font-family: sans-serif;
+    align-items: center;
+}
+
+.small{
+    font-size: 11px;
+}
+
+.second{
+    max-width: 50vw;
+    margin: auto;
+}
+
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+
+.item
+{
+    padding: 23px;
+    border-radius: 12px;
+    background: #f9f9f9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.blue{
+    background-color: #00b6d1;
+}
+
+.green{
+    background-color: green;
+}
+
+.item-lang{
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 36px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px;
+}
+
+.btn{
+    padding: 14px 16px;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: 700;
+    margin: 10px;
+    cursor: pointer;
+}
